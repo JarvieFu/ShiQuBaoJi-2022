@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/02.bntj.json",
     "label" : "02.步辇图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/03.lynxtj.json",
+    "label" : "03.阆苑女仙图卷"
   } ]
 }
