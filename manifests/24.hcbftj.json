@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/24.hcbftj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋乔仲常后赤壁赋图一卷【上等秋一】",
+  "label" : "24.后赤壁赋图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "24.后赤壁赋图卷"
+  }, {
+    "label" : "subject",
+    "value" : "乔仲常. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "乔仲常"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/24.hcbftj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/24.hcbftj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/24.hcbftj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋乔仲常后赤壁赋图一卷【上等秋一】",
+      "height" : 1620,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/24.hcbftj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/24.hcbftj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/24.hcbftj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1620,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/24.hcbftj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29948
+        }
+      } ],
+      "label" : "24.后赤壁赋图卷",
+      "width" : 29948,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/4d0f667239a09a126fcdcec10be5fc15.json",
+        "label" : "Annotations for canvas 24.后赤壁赋图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/052f9a7623c897f8d9e60009483097e7/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
