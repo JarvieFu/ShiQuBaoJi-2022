@@ -105,5 +105,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/25.dtqftz.json",
     "label" : "25.洞庭奇峰图轴"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/26.wqtz.json",
+    "label" : "26.五清图轴"
   } ]
 }
