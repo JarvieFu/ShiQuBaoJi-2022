@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/09.qyqmshtj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "明仇英清明上河圗一卷【次等秋一】",
+  "label" : "09.仇英清明上河图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "09.仇英清明上河图卷"
+  }, {
+    "label" : "subject",
+    "value" : "仇英. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "仇英"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/09.qyqmshtj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/09.qyqmshtj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/09.qyqmshtj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "明仇英清明上河圗一卷【次等秋一】",
+      "height" : 1852,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/09.qyqmshtj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/09.qyqmshtj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/09.qyqmshtj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1852,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/09.qyqmshtj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 65500
+        }
+      } ],
+      "label" : "09.仇英清明上河图卷",
+      "width" : 65500,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/49685f6237c9d3e98ec747cf9da9b35b.json",
+        "label" : "Annotations for canvas 09.仇英清明上河图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/09.qyqmshtj/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
