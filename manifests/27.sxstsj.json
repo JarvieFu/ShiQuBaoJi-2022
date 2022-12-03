@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/27.sxstsj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋米芾苕溪诗一卷【上等盈一】",
+  "label" : "27.苕溪诗帖书卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "27.苕溪诗帖书卷"
+  }, {
+    "label" : "subject",
+    "value" : "米芾. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "米芾"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/27.sxstsj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/27.sxstsj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/27.sxstsj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋米芾苕溪诗一卷【上等盈一】",
+      "height" : 2100,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/27.sxstsj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/27.sxstsj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/27.sxstsj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2100,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/27.sxstsj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29140
+        }
+      } ],
+      "label" : "27.苕溪诗帖书卷",
+      "width" : 29140,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/8e53fb5532f1e762a9255899cfbc6c73.json",
+        "label" : "Annotations for canvas 27.苕溪诗帖书卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/3671eb2fa584b8ac8ac5ce6a03add01c/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
