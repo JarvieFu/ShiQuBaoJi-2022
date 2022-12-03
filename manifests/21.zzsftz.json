@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/21.zzsftz.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "元倪瓒紫芝山房图一轴【上等来三】",
+  "label" : "21.紫芝山房图轴",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "21.紫芝山房图轴"
+  }, {
+    "label" : "subject",
+    "value" : "倪瓒. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "倪瓒"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/21.zzsftz",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/21.zzsftz/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/21.zzsftz/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "元倪瓒紫芝山房图一轴【上等来三】",
+      "height" : 5970,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/21.zzsftz/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/21.zzsftz/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/21.zzsftz/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 5970,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/21.zzsftz",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 2666
+        }
+      } ],
+      "label" : "21.紫芝山房图轴",
+      "width" : 2666,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/338861b938226839c5a3c71779659782.json",
+        "label" : "Annotations for canvas 21.紫芝山房图轴"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/13d49724f8ecdf93863fbf8da966a4c5/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
