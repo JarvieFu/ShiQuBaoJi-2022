@@ -29,5 +29,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/06.xsjdtj.json",
     "label" : "06.写生蛱蝶图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/07.ycxxtj.json",
+    "label" : "07.渔村小雪图卷"
   } ]
 }
