@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/23.jswltjs.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋赵黻江山万里图一卷【上等吕一】<br />",
+  "label" : "23.江山万里图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "23.江山万里图卷"
+  }, {
+    "label" : "subject",
+    "value" : "石渠宝笈. dpm"
+  }, {
+    "label" : "creator",
+    "value" : "赵黻"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/23.jswltjs",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/23.jswltjs/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/23.jswltjs/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋赵黻江山万里图一卷【上等吕一】<br />",
+      "height" : 1538,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/23.jswltjs/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/23.jswltjs/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/23.jswltjs/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1538,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/23.jswltjs",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 45476
+        }
+      } ],
+      "label" : "23.江山万里图卷",
+      "width" : 45476,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/3e080c14112c3d96cf01df89981c5158.json",
+        "label" : "Annotations for canvas 23.江山万里图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/a4296e79825686a9b86b74e3786d2e7d/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
