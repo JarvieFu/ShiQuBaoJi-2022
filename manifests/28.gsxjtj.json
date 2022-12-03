@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/28.gsxjtj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "明董其昌闗山雪霁图一卷【上等】",
+  "label" : "28.关山雪霁图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "28.关山雪霁图卷"
+  }, {
+    "label" : "subject",
+    "value" : "董其昌. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "董其昌"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/28.gsxjtj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/28.gsxjtj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/28.gsxjtj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "明董其昌闗山雪霁图一卷【上等】",
+      "height" : 2182,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/28.gsxjtj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/28.gsxjtj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/28.gsxjtj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2182,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/28.gsxjtj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 32046
+        }
+      } ],
+      "label" : "28.关山雪霁图卷",
+      "width" : 32046,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/7658de3c51b69d0b1645c5dadc4ed680.json",
+        "label" : "Annotations for canvas 28.关山雪霁图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/cea630c1f8d3e56bb087f52c0dec51bb/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
