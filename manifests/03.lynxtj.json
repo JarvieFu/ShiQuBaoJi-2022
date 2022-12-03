@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/03.lynxtj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "五代阮郜女仙图一卷【上等盈一】",
+  "label" : "03.阆苑女仙图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "03.阆苑女仙图卷"
+  }, {
+    "label" : "subject",
+    "value" : "阮郜. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "阮郜"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/03.lynxtj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/03.lynxtj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/03.lynxtj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "五代阮郜女仙图一卷【上等盈一】",
+      "height" : 3299,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/03.lynxtj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/03.lynxtj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/03.lynxtj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 3299,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/03.lynxtj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29976
+        }
+      } ],
+      "label" : "03.阆苑女仙图卷",
+      "width" : 29976,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/7924e50b307b59aa22919ea600903c9a.json",
+        "label" : "Annotations for canvas 03.阆苑女仙图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/03.lynxtj/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
