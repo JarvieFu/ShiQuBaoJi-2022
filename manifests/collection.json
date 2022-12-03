@@ -45,5 +45,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/10.qljstj.json",
     "label" : "10.千里江山图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/11.stj.json",
+    "label" : "11.水图卷"
   } ]
 }
