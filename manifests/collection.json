@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/29.qhqstj.json",
-    "label" : "29.鹊华秋色图卷"
-  } ]
+  "items" : [ ]
 }
