@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/25.dtqftz.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "元黄公望洞庭竒峯图一轴【上等宙一】",
+  "label" : "25.洞庭奇峰图轴",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "25.洞庭奇峰图轴"
+  }, {
+    "label" : "subject",
+    "value" : "黄公望. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "黄公望"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/25.dtqftz",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/25.dtqftz/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/25.dtqftz/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "元黄公望洞庭竒峯图一轴【上等宙一】",
+      "height" : 7741,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/25.dtqftz/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/25.dtqftz/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/25.dtqftz/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 7741,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/25.dtqftz",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 3417
+        }
+      } ],
+      "label" : "25.洞庭奇峰图轴",
+      "width" : 3417,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/f879c20a4e5a7b7d4dac342e5bb54585.json",
+        "label" : "Annotations for canvas 25.洞庭奇峰图轴"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/dd04dbbe179741adeaafd06e1e1fd8ac/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
