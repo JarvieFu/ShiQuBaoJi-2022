@@ -93,5 +93,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/22.lzxytj.json",
     "label" : "22.莲舟新月图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/23.jswltjs.json",
+    "label" : "23.江山万里图卷"
   } ]
 }
