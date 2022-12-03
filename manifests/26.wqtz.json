@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/26.wqtz.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "恽夀平五清图一轴【上等天一】",
+  "label" : "26.五清图轴",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "26.五清图轴"
+  }, {
+    "label" : "subject",
+    "value" : "恽寿平. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "恽寿平"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/26.wqtz",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/26.wqtz/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/26.wqtz/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "恽夀平五清图一轴【上等天一】",
+      "height" : 3905,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/26.wqtz/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/26.wqtz/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/26.wqtz/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 3905,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/26.wqtz",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 1791
+        }
+      } ],
+      "label" : "26.五清图轴",
+      "width" : 1791,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/90d246b3197142e193156815391632d8.json",
+        "label" : "Annotations for canvas 26.五清图轴"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/129972d2cd2dd7662c2acde7c1dfb15c/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
