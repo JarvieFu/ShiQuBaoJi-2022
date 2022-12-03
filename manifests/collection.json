@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/04.xszqtj.json",
     "label" : "04.写生珍禽图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/05.hxzyytj.json",
+    "label" : "05.韩熙载夜宴图卷"
   } ]
 }
