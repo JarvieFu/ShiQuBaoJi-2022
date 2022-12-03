@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/16.szjztz.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "明宪宗嵗朝佳兆图一轴【次等暑一】",
+  "label" : "16.岁朝佳兆图轴",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "16.岁朝佳兆图轴"
+  }, {
+    "label" : "subject",
+    "value" : "朱见深. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "朱见深"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/16.szjztz",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/16.szjztz/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/16.szjztz/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "明宪宗嵗朝佳兆图一轴【次等暑一】",
+      "height" : 7083,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/16.szjztz/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/16.szjztz/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/16.szjztz/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 7083,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/16.szjztz",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 4193
+        }
+      } ],
+      "label" : "16.岁朝佳兆图轴",
+      "width" : 4193,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/e4da6f661faa791c2bed6b9c6470d886.json",
+        "label" : "Annotations for canvas 16.岁朝佳兆图轴"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/57faeb9a11d5ed3dd86d3c6709069717/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
