@@ -37,5 +37,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/08.qcbfsj.json",
     "label" : "08.前赤壁赋书卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/09.qyqmshtj.json",
+    "label" : "09.仇英清明上河图卷"
   } ]
 }
