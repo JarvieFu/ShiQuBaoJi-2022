@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/13.lcjdtj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "元王振鹏龙池竞渡图一卷【上等霜一】",
+  "label" : "13.龙池竞渡图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "13.龙池竞渡图卷"
+  }, {
+    "label" : "subject",
+    "value" : "王振鹏. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "王振鹏"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/13.lcjdtj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/13.lcjdtj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/13.lcjdtj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "元王振鹏龙池竞渡图一卷【上等霜一】",
+      "height" : 1800,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/13.lcjdtj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/13.lcjdtj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/13.lcjdtj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1800,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/13.lcjdtj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29764
+        }
+      } ],
+      "label" : "13.龙池竞渡图卷",
+      "width" : 29764,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/5818e2ccb6ef908c32a8c98604c033af.json",
+        "label" : "Annotations for canvas 13.龙池竞渡图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/2da87fc0f26314429f5ba37a7cd67120/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
