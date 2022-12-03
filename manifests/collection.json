@@ -53,5 +53,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/12.hltj.json",
     "label" : "12.货郎图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/13.lcjdtj.json",
+    "label" : "13.龙池竞渡图卷"
   } ]
 }
