@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/30.bztz.json",
     "label" : "30.柏子图轴"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/29.qhqstj.json",
+    "label" : "29.鹊华秋色图卷"
   } ]
 }
