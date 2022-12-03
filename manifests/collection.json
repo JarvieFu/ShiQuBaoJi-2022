@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/01.lsftjs.json",
     "label" : "01.洛神赋图卷(宋摹本)"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/02.bntj.json",
+    "label" : "02.步辇图卷"
   } ]
 }
