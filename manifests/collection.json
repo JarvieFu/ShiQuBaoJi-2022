@@ -73,5 +73,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/17.yhtj.json",
     "label" : "17.饮鹤图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/18.smtj.json",
+    "label" : "18.事茗图卷"
   } ]
 }
