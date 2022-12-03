@@ -41,5 +41,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/09.qyqmshtj.json",
     "label" : "09.仇英清明上河图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/10.qljstj.json",
+    "label" : "10.千里江山图卷"
   } ]
 }
