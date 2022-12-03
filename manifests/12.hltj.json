@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/12.hltj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋李嵩货郎图一卷【上等闰一】",
+  "label" : "12.货郎图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "12.货郎图卷"
+  }, {
+    "label" : "subject",
+    "value" : "李嵩. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "李嵩"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/12.hltj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/12.hltj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/12.hltj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋李嵩货郎图一卷【上等闰一】",
+      "height" : 4641,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/12.hltj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/12.hltj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/12.hltj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 4641,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/12.hltj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 21151
+        }
+      } ],
+      "label" : "12.货郎图卷",
+      "width" : 21151,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/6d5585b0d931da34ef0c8b3d78892870.json",
+        "label" : "Annotations for canvas 12.货郎图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/74c7688a6ace08a91698f445512fa0b2/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
