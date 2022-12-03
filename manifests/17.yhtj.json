@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/17.yhtj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "明唐寅饮鹤图一卷【上等署二】",
+  "label" : "17.饮鹤图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "17.饮鹤图卷"
+  }, {
+    "label" : "subject",
+    "value" : "唐寅. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "唐寅"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/17.yhtj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/17.yhtj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/17.yhtj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "明唐寅饮鹤图一卷【上等署二】",
+      "height" : 2873,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/17.yhtj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/17.yhtj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/17.yhtj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2873,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/17.yhtj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 19832
+        }
+      } ],
+      "label" : "17.饮鹤图卷",
+      "width" : 19832,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/d1df518c37c9199ff94936ce4a2e3d58.json",
+        "label" : "Annotations for canvas 17.饮鹤图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/994b11f797435f3a1de3e232df416518/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
