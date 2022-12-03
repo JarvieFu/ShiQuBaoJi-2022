@@ -89,5 +89,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/21.zzsftz.json",
     "label" : "21.紫芝山房图轴"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/22.lzxytj.json",
+    "label" : "22.莲舟新月图卷"
   } ]
 }
