@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/01.lsftjs.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "<span style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">晋顾凯之洛神图一卷【上等天二】</span>",
+  "label" : "01.洛神赋图卷(宋摹本)",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "01.洛神赋图卷(宋摹本)"
+  }, {
+    "label" : "subject",
+    "value" : "石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "顾恺之"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/01.lsftjs",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/01.lsftjs/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/01.lsftjs/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "<span style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">晋顾凯之洛神图一卷【上等天二】</span>",
+      "height" : 1355,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/01.lsftjs/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/01.lsftjs/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/01.lsftjs/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1355,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/01.lsftjs",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 51592
+        }
+      } ],
+      "label" : "01.洛神赋图卷(宋摹本)",
+      "width" : 51592,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/d4ac2048e73a1dfb6b5beb8e7e685b3e.json",
+        "label" : "Annotations for canvas 01.洛神赋图卷(宋摹本)"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/01.lsftjs/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
