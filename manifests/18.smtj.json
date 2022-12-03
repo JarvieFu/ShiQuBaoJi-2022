@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/18.smtj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "明唐寅事茗图一卷【上等律三】",
+  "label" : "18.事茗图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "18.事茗图卷"
+  }, {
+    "label" : "subject",
+    "value" : "唐寅. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "唐寅"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/18.smtj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/18.smtj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/18.smtj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "明唐寅事茗图一卷【上等律三】",
+      "height" : 2840,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/18.smtj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/18.smtj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/18.smtj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2840,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/18.smtj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29928
+        }
+      } ],
+      "label" : "18.事茗图卷",
+      "width" : 29928,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/da43f7c9e8c4ba74b3f619839be4708f.json",
+        "label" : "Annotations for canvas 18.事茗图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/61aa14dad407b48a78eb44399b71171b/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
