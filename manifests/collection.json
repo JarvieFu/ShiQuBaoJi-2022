@@ -61,5 +61,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/14.tbstj.json",
     "label" : "14.太白山图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/15.xjfsj.json",
+    "label" : "15.闲居赋书卷"
   } ]
 }
