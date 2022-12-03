@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/10.qljstj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋王希孟千里江山图一卷【上等余一】",
+  "label" : "10.千里江山图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "10.千里江山图卷"
+  }, {
+    "label" : "subject",
+    "value" : "王希孟. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "王希孟"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/10.qljstj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/10.qljstj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/10.qljstj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋王希孟千里江山图一卷【上等余一】",
+      "height" : 1200,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/10.qljstj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/10.qljstj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/10.qljstj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1200,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/10.qljstj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29974
+        }
+      } ],
+      "label" : "10.千里江山图卷",
+      "width" : 29974,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/e2190708d893573d276c345b57696c53.json",
+        "label" : "Annotations for canvas 10.千里江山图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/e605bd1b41613966a686d207b202ac18/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
