@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/07.ycxxtj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋王诜渔村小雪图一卷【上等宇一】",
+  "label" : "07.渔村小雪图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "07.渔村小雪图卷"
+  }, {
+    "label" : "subject",
+    "value" : "王诜. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "王诜"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/07.ycxxtj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/07.ycxxtj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/07.ycxxtj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋王诜渔村小雪图一卷【上等宇一】",
+      "height" : 1618,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/07.ycxxtj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/07.ycxxtj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/07.ycxxtj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1618,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/07.ycxxtj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 24920
+        }
+      } ],
+      "label" : "07.渔村小雪图卷",
+      "width" : 24920,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/61e66fde5d7cbadbb41e6300930f3f50.json",
+        "label" : "Annotations for canvas 07.渔村小雪图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/77140adc25dffe6f9601d68ea1afd258/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
