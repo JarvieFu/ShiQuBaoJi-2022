@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/14.tbstj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "元王蒙太白山图一卷【上等生一】",
+  "label" : "14.太白山图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "14.太白山图卷"
+  }, {
+    "label" : "subject",
+    "value" : "王蒙. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "王蒙"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/14.tbstj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/14.tbstj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/14.tbstj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "元王蒙太白山图一卷【上等生一】",
+      "height" : 1200,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/14.tbstj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/14.tbstj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/14.tbstj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1200,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/14.tbstj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29696
+        }
+      } ],
+      "label" : "14.太白山图卷",
+      "width" : 29696,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/d25a4f58d9f559b0df4986183c5d0897.json",
+        "label" : "Annotations for canvas 14.太白山图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/a7183690bea20fd9840216e770fb58a9/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
