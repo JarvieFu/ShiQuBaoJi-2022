@@ -1,0 +1,13 @@
+{
+  "id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in JarvieFu/ShiQuBaoJi-2022 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/30.bztz.json",
+    "label" : "30.柏子图轴"
+  } ]
+}
