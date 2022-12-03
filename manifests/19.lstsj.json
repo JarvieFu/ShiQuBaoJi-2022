@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/19.lstsj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "唐怀素论书帖一卷【上等元一】",
+  "label" : "19.论书帖书卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "19.论书帖书卷"
+  }, {
+    "label" : "subject",
+    "value" : "怀素. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "怀素"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/19.lstsj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/19.lstsj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/19.lstsj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "唐怀素论书帖一卷【上等元一】",
+      "height" : 3274,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/19.lstsj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/19.lstsj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/19.lstsj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 3274,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/19.lstsj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 23114
+        }
+      } ],
+      "label" : "19.论书帖书卷",
+      "width" : 23114,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/423e27e89a56a730fc8eb94c355a8ee4.json",
+        "label" : "Annotations for canvas 19.论书帖书卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/63d12c7a97a98a608c2ed2279e824a42/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
