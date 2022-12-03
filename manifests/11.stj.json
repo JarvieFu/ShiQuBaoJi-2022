@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/11.stj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋马逺水图一卷【上等成三】",
+  "label" : "11.水图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "11.水图卷"
+  }, {
+    "label" : "subject",
+    "value" : "马远. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "马远"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/11.stj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/11.stj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/11.stj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋马逺水图一卷【上等成三】",
+      "height" : 940,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/11.stj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/11.stj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/11.stj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 940,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/11.stj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29856
+        }
+      } ],
+      "label" : "11.水图卷",
+      "width" : 29856,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/f2b3ed633d2478e0a0d498b7bd2616db.json",
+        "label" : "Annotations for canvas 11.水图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/e6805b7ad7bbd0c5978f1aae9fbe2a4c/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
