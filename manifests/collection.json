@@ -69,5 +69,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/16.szjztz.json",
     "label" : "16.岁朝佳兆图轴"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/17.yhtj.json",
+    "label" : "17.饮鹤图卷"
   } ]
 }
