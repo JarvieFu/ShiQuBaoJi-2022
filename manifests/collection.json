@@ -101,5 +101,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/24.hcbftj.json",
     "label" : "24.后赤壁赋图卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/25.dtqftz.json",
+    "label" : "25.洞庭奇峰图轴"
   } ]
 }
