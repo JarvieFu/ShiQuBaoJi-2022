@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/08.qcbfsj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋苏轼书前赤壁赋一卷【上等张二】",
+  "label" : "08.前赤壁赋书卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "08.前赤壁赋书卷"
+  }, {
+    "label" : "subject",
+    "value" : "苏轼. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "苏轼"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/08.qcbfsj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/08.qcbfsj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/08.qcbfsj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋苏轼书前赤壁赋一卷【上等张二】",
+      "height" : 2322,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/08.qcbfsj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/08.qcbfsj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/08.qcbfsj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2322,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/08.qcbfsj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 23717
+        }
+      } ],
+      "label" : "08.前赤壁赋书卷",
+      "width" : 23717,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/7678bed5809c372e14e26a9623a7a936.json",
+        "label" : "Annotations for canvas 08.前赤壁赋书卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/84ad46e988b2271e1b1cc427410d6a7c/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
