@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/20.syttsj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "唐李白上阳台书一卷【上等黄一】",
+  "label" : "20.上阳台帖书卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "20.上阳台帖书卷"
+  }, {
+    "label" : "subject",
+    "value" : "李白. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "李白"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/20.syttsj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/20.syttsj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/20.syttsj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "唐李白上阳台书一卷【上等黄一】",
+      "height" : 2812,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/20.syttsj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/20.syttsj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20.syttsj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2812,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20.syttsj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 25236
+        }
+      } ],
+      "label" : "20.上阳台帖书卷",
+      "width" : 25236,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/1e36c227c9cab89b5d9c49d8920ae4a7.json",
+        "label" : "Annotations for canvas 20.上阳台帖书卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/c19f4c2cacfff0b0275cef7d05052179/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
