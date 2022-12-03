@@ -109,5 +109,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/26.wqtz.json",
     "label" : "26.五清图轴"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/27.sxstsj.json",
+    "label" : "27.苕溪诗帖书卷"
   } ]
 }
