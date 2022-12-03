@@ -81,5 +81,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/19.lstsj.json",
     "label" : "19.论书帖书卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/20.syttsj.json",
+    "label" : "20.上阳台帖书卷"
   } ]
 }
