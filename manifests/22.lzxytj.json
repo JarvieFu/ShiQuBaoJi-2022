@@ -1,0 +1,65 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/22.lzxytj.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "The Internet Archive",
+  "description" : "宋赵伯驹莲舟新月图一卷【上等収一】",
+  "label" : "22.莲舟新月图卷",
+  "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "22.莲舟新月图卷"
+  }, {
+    "label" : "subject",
+    "value" : "赵伯驹. 石渠宝笈"
+  }, {
+    "label" : "creator",
+    "value" : "赵伯驹"
+  } ],
+  "seeAlso" : "http://archive.org/metadata/22.lzxytj",
+  "sequences" : [ {
+    "@context" : "http://iiif.io/api/image/2/context.json",
+    "@id" : "https://iiif.archivelab.org/iiif/22.lzxytj/canvas/default",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@context" : "http://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/22.lzxytj/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "宋赵伯驹莲舟新月图一卷【上等収一】",
+      "height" : 1220,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/22.lzxytj/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/22.lzxytj/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/22.lzxytj/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1220,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/22.lzxytj",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 29802
+        }
+      } ],
+      "label" : "22.莲舟新月图卷",
+      "width" : 29802,
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/74b8a8ba58fad9c493d8e8b6f4000ae3.json",
+        "label" : "Annotations for canvas 22.莲舟新月图卷"
+      } ]
+    } ],
+    "label" : "default"
+  } ],
+  "viewingHint" : "paged",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/84315241/09f5b4c714b2b5c106f60b0dbbc30089/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
