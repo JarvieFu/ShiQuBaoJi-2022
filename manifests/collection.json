@@ -113,5 +113,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/27.sxstsj.json",
     "label" : "27.苕溪诗帖书卷"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/manifests/28.gsxjtj.json",
+    "label" : "28.关山雪霁图卷"
   } ]
 }
