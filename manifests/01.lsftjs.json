@@ -4,11 +4,11 @@
   "@type" : "sc:Manifest",
   "attribution" : "The Internet Archive",
   "description" : "<span style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">晋顾凯之洛神图一卷【上等天二】</span>",
-  "label" : "01.洛神赋图卷(宋摹本)",
+  "label" : "01.洛神赋图卷",
   "logo" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
   "metadata" : [ {
     "label" : "title",
-    "value" : "01.洛神赋图卷(宋摹本)"
+    "value" : "01.洛神赋图卷"
   }, {
     "label" : "subject",
     "value" : "石渠宝笈"
@@ -46,12 +46,12 @@
           "width" : 51592
         }
       } ],
-      "label" : "01.洛神赋图卷(宋摹本)",
+      "label" : "01.洛神赋图卷",
       "width" : 51592,
       "otherContent" : [ {
         "@type" : "sc:AnnotationList",
         "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/84315241/d4ac2048e73a1dfb6b5beb8e7e685b3e.json",
-        "label" : "Annotations for canvas 01.洛神赋图卷(宋摹本)"
+        "label" : "Annotations for canvas 01.洛神赋图卷"
       } ]
     } ],
     "label" : "default"
