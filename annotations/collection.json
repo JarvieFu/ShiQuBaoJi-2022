@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://JarvieFu.github.io/ShiQuBaoJi-2022/annotations/shuitujuan.json" ],
+  "@id" : "https://JarvieFu.github.io/ShiQuBaoJi-2022/annotations/collection.json",
+  "label" : "All annotations loaded in JarvieFu/ShiQuBaoJi-2022 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
