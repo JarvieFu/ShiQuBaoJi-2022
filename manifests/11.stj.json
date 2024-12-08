@@ -19,28 +19,28 @@
   "seeAlso" : "http://archive.org/metadata/11.stj",
   "sequences" : [ {
     "@context" : "http://iiif.io/api/image/2/context.json",
-    "@id" : "https://iiif.archivelab.org/iiif/11.stj/canvas/default",
+    "@id" : "https://iiif.archive.org/iiif/11.stj/canvas/default",
     "@type" : "sc:Sequence",
     "canvases" : [ {
       "@context" : "http://iiif.io/api/presentation/2/context.json",
-      "@id" : "https://iiif.archivelab.org/iiif/11.stj/canvas",
+      "@id" : "https://iiif.archive.org/iiif/11.stj/canvas",
       "@type" : "sc:Canvas",
       "description" : "宋马逺水图一卷【上等成三】",
       "height" : 940,
       "images" : [ {
         "@context" : "http://iiif.io/api/image/2/context.json",
-        "@id" : "https://iiif.archivelab.org/iiif/11.stj/annotation",
+        "@id" : "https://iiif.archive.org/iiif/11.stj/annotation",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
-        "on" : "https://iiif.archivelab.org/iiif/11.stj/annotation",
+        "on" : "https://iiif.archive.org/iiif/11.stj/annotation",
         "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/11.stj/full/full/0/default.jpg",
+          "@id" : "https://iiif.archive.org/iiif/11.stj/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 940,
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/11.stj",
+            "@id" : "https://iiif.archive.org/iiif/11.stj",
             "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
           },
           "width" : 29856
